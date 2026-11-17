@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <!-- Loan Products Illustration -->
+  <rect width="400" height="240" rx="16" fill="#FFF7ED" stroke="#FED7AA"/>
+  <g transform="translate(40, 30)">
+    <!-- Fleet & Vehicle Silhouettes -->
+    <rect x="0" y="40" width="140" height="90" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="15" y="75" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" fill="#F25C05">Used Car Purchase</text>
+    <text x="15" y="95" font-family="-apple-system, sans-serif" font-size="10" fill="#64748B">Up to 90% On-road price</text>
+    <text x="15" y="112" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#10B981">From 11.25% p.a.</text>
+
+    <rect x="160" y="40" width="160" height="90" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="175" y="75" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" fill="#F25C05">Commercial Fleet</text>
+    <text x="175" y="95" font-family="-apple-system, sans-serif" font-size="10" fill="#64748B">Trucks, Buses &amp; Taxis</text>
+    <text x="175" y="112" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#10B981">Tenure up to 60 Months</text>
+  </g>
+  <text x="40" y="195" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#0F172A">Multi-Asset Financing Ecosystem</text>
+  <text x="40" y="215" font-family="-apple-system, sans-serif" font-size="11" fill="#64748B">Single digital portal for retail &amp; commercial vehicle lending</text>
+</svg>

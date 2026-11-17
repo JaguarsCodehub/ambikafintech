@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" fill="none">
+  <!-- Medical & Family Emergencies Illustration -->
+  <rect width="380" height="200" rx="16" fill="#1E293B"/>
+  <circle cx="300" cy="50" r="70" fill="#334155" opacity="0.3"/>
+  <g transform="translate(30, 25)">
+    <!-- Hospital / Medical Cross Shield -->
+    <path d="M50 15 L95 30 L95 85 C95 120 50 140 50 140 C50 140 5 120 5 85 L5 30 Z" fill="#F25C05"/>
+    <!-- White Medical Cross -->
+    <rect x="42" y="50" width="16" height="48" rx="3" fill="#FFFFFF"/>
+    <rect x="26" y="66" width="48" height="16" rx="3" fill="#FFFFFF"/>
+    <!-- ECG Heartbeat line -->
+    <path d="M120 85 L150 85 L160 55 L175 115 L190 70 L205 95 L220 85 L280 85" stroke="#F87171" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="280" cy="85" r="5" fill="#EF4444"/>
+    <!-- Instant Sanction Stamp -->
+    <g transform="translate(190, 25)">
+      <rect width="100" height="32" rx="16" fill="#10B981"/>
+      <text x="14" y="21" font-family="-apple-system, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF">SAME-DAY DISBURSAL</text>
+    </g>
+  </g>
+  <text x="30" y="175" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#FED7AA">Zero Delay in Family &amp; Health Emergencies</text>
+</svg>

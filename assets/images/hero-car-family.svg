@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="carBody" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F25C05"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Soft Radiance -->
+  <circle cx="340" cy="200" r="180" fill="#FFF7ED" opacity="0.8"/>
+  <circle cx="480" cy="140" r="100" fill="#FFEDD5" opacity="0.6"/>
+
+  <!-- Road / Base Ground -->
+  <ellipse cx="300" cy="380" rx="270" ry="24" fill="#E2E8F0"/>
+  <ellipse cx="300" cy="380" rx="240" ry="16" fill="#CBD5E1"/>
+
+  <!-- MODERN INDIAN SUV (Metallic Deep Blue Finish) -->
+  <g id="SUV">
+    <!-- Shadow under car -->
+    <ellipse cx="280" cy="365" rx="200" ry="18" fill="#1E293B" opacity="0.35"/>
+
+    <!-- Car Wheels -->
+    <!-- Rear Wheel -->
+    <g transform="translate(160, 320)">
+      <circle cx="0" cy="0" r="38" fill="#1F2937"/>
+      <circle cx="0" cy="0" r="26" fill="#4B5563"/>
+      <!-- Alloy Spokes -->
+      <circle cx="0" cy="0" r="18" fill="#9CA3AF"/>
+      <circle cx="0" cy="0" r="8" fill="#D1D5DB"/>
+      <path d="M-18 0H18 M0 -18V18 M-12 -12L12 12 M-12 12L12 -12" stroke="#1F2937" stroke-width="3"/>
+    </g>
+    <!-- Front Wheel -->
+    <g transform="translate(380, 320)">
+      <circle cx="0" cy="0" r="38" fill="#1F2937"/>
+      <circle cx="0" cy="0" r="26" fill="#4B5563"/>
+      <!-- Alloy Spokes -->
+      <circle cx="0" cy="0" r="18" fill="#9CA3AF"/>
+      <circle cx="0" cy="0" r="8" fill="#D1D5DB"/>
+      <path d="M-18 0H18 M0 -18V18 M-12 -12L12 12 M-12 12L12 -12" stroke="#1F2937" stroke-width="3"/>
+    </g>
+
+    <!-- Main Chassis & Body -->
+    <path d="M90 280 L120 230 L200 170 L340 170 L420 230 L470 260 L480 300 L460 330 L420 330 C410 295 350 295 340 330 L200 330 C190 295 130 295 120 330 L90 330 Z" fill="url(#carBody)"/>
+
+    <!-- Windows & Greenhouse -->
+    <path d="M205 178 L330 178 L395 230 L205 230 Z" fill="#93C5FD" opacity="0.85"/>
+    <path d="M140 230 L200 178 L200 230 Z" fill="#93C5FD" opacity="0.85"/>
+    <!-- Window Pillars -->
+    <rect x="250" y="178" width="8" height="52" fill="#1E3A8A"/>
+    <rect x="330" y="178" width="10" height="52" fill="#1E3A8A"/>
+
+    <!-- Headlight & Taillight -->
+    <path d="M465 260 L480 270 L460 285 Z" fill="#FEF08A"/>
+    <path d="M90 280 L100 275 L95 295 Z" fill="#EF4444"/>
+
+    <!-- Front Grille & Chrome Line -->
+    <rect x="440" y="275" width="38" height="20" rx="4" fill="#111827"/>
+    <line x1="442" y1="282" x2="476" y2="282" stroke="#E5E7EB" stroke-width="2"/>
+    <line x1="442" y1="288" x2="476" y2="288" stroke="#E5E7EB" stroke-width="2"/>
+
+    <!-- Roof Rails (SUV look) -->
+    <rect x="190" y="162" width="160" height="6" rx="3" fill="#64748B"/>
+    <rect x="210" y="168" width="8" height="6" fill="#475569"/>
+    <rect x="320" y="168" width="8" height="6" fill="#475569"/>
+
+    <!-- Door Lines & Handle -->
+    <path d="M260 230 L260 325" stroke="#1E293B" stroke-width="2"/>
+    <rect x="220" y="240" width="22" height="6" rx="3" fill="#E2E8F0"/>
+    <rect x="280" y="240" width="22" height="6" rx="3" fill="#E2E8F0"/>
+  </g>
+
+  <!-- HAPPY INDIAN CUSTOMER / FAMILY REPRESENTATION -->
+  <g id="CustomerAndKey" transform="translate(460, 160)">
+    <!-- Cheerful Businessman / Car Owner with Key & Thumbs Up -->
+    <!-- Head -->
+    <circle cx="45" cy="35" r="18" fill="#F87171" opacity="0.9"/>
+    <!-- Hair -->
+    <path d="M30 30 C30 15 60 15 60 30 Z" fill="#1F2937"/>
+    <!-- Spectacles -->
+    <circle cx="40" cy="35" r="4" fill="none" stroke="#1F2937" stroke-width="1.5"/>
+    <circle cx="50" cy="35" r="4" fill="none" stroke="#1F2937" stroke-width="1.5"/>
+    <line x1="44" y1="35" x2="46" y2="35" stroke="#1F2937" stroke-width="1.5"/>
+    <!-- Smiling Mouth -->
+    <path d="M41 44 Q45 48 49 44" stroke="#7F1D1D" stroke-width="1.5" fill="none"/>
+    <!-- Traditional Nehru Jacket / Formal Shirt -->
+    <path d="M25 55 L65 55 L70 120 L20 120 Z" fill="#F25C05"/>
+    <rect x="40" y="55" width="10" height="65" fill="#FFFFFF"/>
+    <!-- Arm holding Car Keys -->
+    <path d="M25 65 L-5 90" stroke="#F87171" stroke-width="8" stroke-linecap="round"/>
+    <!-- Key Ring -->
+    <circle cx="-10" cy="95" r="8" fill="none" stroke="#FBBF24" stroke-width="3"/>
+    <rect x="-10" y="103" width="5" height="12" fill="#FBBF24"/>
+  </g>
+
+  <!-- FLOATING EQUITY & CASH UNLOCK BADGE -->
+  <g transform="translate(40, 50)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="210" height="88" rx="16" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="210" height="88" rx="16" stroke="#FED7AA" stroke-width="1.5"/>
+    
+    <!-- Icon Container -->
+    <rect x="14" y="14" width="48" height="48" rx="12" fill="#FFF7ED"/>
+    <!-- Rupee Bag / Coins -->
+    <text x="28" y="47" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#F25C05">₹</text>
+    
+    <text x="72" y="34" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#64748B" letter-spacing="0.5">INSTANT CASH UNLOCK</text>
+    <text x="72" y="56" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#0F172A">Up to 200% LTV</text>
+    <text x="72" y="72" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" fill="#10B981">✓ Keep &amp; Drive Your Car</text>
+  </g>
+
+  <!-- 30 SECONDS APPROVAL PILL -->
+  <g transform="translate(370, 40)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="190" height="52" rx="26" fill="#0F172A"/>
+    <circle cx="28" cy="26" r="16" fill="#F25C05"/>
+    <!-- Lightning bolt -->
+    <path d="M29 18 L23 27 H28 L27 34 L33 25 H28 Z" fill="#FFFFFF"/>
+    <text x="54" y="25" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#FED7AA">DISBURSAL SPEED</text>
+    <text x="54" y="40" font-family="-apple-system, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">Same Day in 24 Hrs</text>
+  </g>
+
+  <!-- MONEY POT / ASSET UNLOCK GRAPHIC -->
+  <g transform="translate(60, 240)">
+    <!-- Traditional Indian Tijori / Pot of Wealth -->
+    <ellipse cx="40" cy="70" rx="36" ry="12" fill="#0F172A" opacity="0.2"/>
+    <path d="M15 45 C15 75 65 75 65 45 C65 25 15 25 15 45 Z" fill="#D97706"/>
+    <ellipse cx="40" cy="30" rx="22" ry="7" fill="#F59E0B"/>
+    <!-- Gold Rupee Coins piling -->
+    <circle cx="34" cy="22" r="10" fill="#FBBF24" stroke="#D97706" stroke-width="1.5"/>
+    <text x="31" y="26" font-size="11" font-weight="bold" fill="#78350F">₹</text>
+    <circle cx="48" cy="20" r="10" fill="#FCD34D" stroke="#D97706" stroke-width="1.5"/>
+    <text x="45" y="24" font-size="11" font-weight="bold" fill="#78350F">₹</text>
+  </g>
+</svg>

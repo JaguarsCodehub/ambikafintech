@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" fill="none">
+  <defs>
+    <linearGradient id="gradOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F25C05"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="shadowBox" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="620" height="400" rx="20" fill="#F8FAFC"/>
+  <rect x="1" y="1" width="618" height="398" rx="19" stroke="#E2E8F0"/>
+
+  <!-- Step 1: Your Car Stays With You -->
+  <g transform="translate(35, 35)" filter="url(#shadowBox)">
+    <rect width="250" height="145" rx="16" fill="#FFFFFF" stroke="#FED7AA" stroke-width="1.5"/>
+    <circle cx="36" cy="38" r="18" fill="#FFF7ED"/>
+    <!-- Car Mini -->
+    <path d="M26 40 L30 34 L42 34 L46 40 Z" fill="#F25C05"/>
+    <circle cx="30" cy="42" r="3" fill="#1F2937"/>
+    <circle cx="42" cy="42" r="3" fill="#1F2937"/>
+    <text x="64" y="32" font-family="-apple-system, sans-serif" font-size="10" font-weight="800" fill="#F25C05" letter-spacing="0.5">STEP 1</text>
+    <text x="64" y="48" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#0F172A">Keep Driving Your Car</text>
+    <text x="20" y="85" font-family="-apple-system, sans-serif" font-size="11" fill="#475569">
+      <tspan x="20" dy="0">No physical confiscation.</tspan>
+      <tspan x="20" dy="18">Your car stays in your garage</tspan>
+      <tspan x="20" dy="18">for daily work &amp; family use.</tspan>
+    </text>
+  </g>
+
+  <!-- Arrow 1 to 2 -->
+  <path d="M295 105 L325 105" stroke="#F25C05" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <polygon points="325,100 335,105 325,110" fill="#F25C05"/>
+
+  <!-- Step 2: Digital Valuation in 30 Seconds -->
+  <g transform="translate(335, 35)" filter="url(#shadowBox)">
+    <rect width="250" height="145" rx="16" fill="#FFFFFF" stroke="#FED7AA" stroke-width="1.5"/>
+    <circle cx="36" cy="38" r="18" fill="#FFF7ED"/>
+    <!-- Speedometer / AI Scan -->
+    <path d="M28 42 A10 10 0 0 1 44 42" stroke="#F25C05" stroke-width="3" fill="none"/>
+    <line x1="36" y1="42" x2="41" y2="35" stroke="#F25C05" stroke-width="2.5"/>
+    <text x="64" y="32" font-family="-apple-system, sans-serif" font-size="10" font-weight="800" fill="#F25C05" letter-spacing="0.5">STEP 2</text>
+    <text x="64" y="48" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#0F172A">Instant Car Valuation</text>
+    <text x="20" y="85" font-family="-apple-system, sans-serif" font-size="11" fill="#475569">
+      <tspan x="20" dy="0">AI algorithm checks RTO data</tspan>
+      <tspan x="20" dy="18">and quotes up to 200% LTV</tspan>
+      <tspan x="20" dy="18">with zero document friction.</tspan>
+    </text>
+  </g>
+
+  <!-- Arrow down -->
+  <path d="M460 190 L460 215" stroke="#F25C05" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <polygon points="455,215 460,225 465,215" fill="#F25C05"/>
+
+  <!-- Step 3: Instant Disbursal to Bank Account -->
+  <g transform="translate(335, 220)" filter="url(#shadowBox)">
+    <rect width="250" height="145" rx="16" fill="#0F172A" stroke="#1E293B" stroke-width="1.5"/>
+    <circle cx="36" cy="38" r="18" fill="#F25C05"/>
+    <!-- Bank Rupee Icon -->
+    <text x="31" y="45" font-family="-apple-system, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">₹</text>
+    <text x="64" y="32" font-family="-apple-system, sans-serif" font-size="10" font-weight="800" fill="#FED7AA" letter-spacing="0.5">STEP 3</text>
+    <text x="64" y="48" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">Direct Disbursal in 24h</text>
+    <text x="20" y="85" font-family="-apple-system, sans-serif" font-size="11" fill="#CBD5E1">
+      <tspan x="20" dy="0">Funds credited straight into</tspan>
+      <tspan x="20" dy="18">your verified bank account</tspan>
+      <tspan x="20" dy="18">via RTGS / IMPS instantly.</tspan>
+    </text>
+  </g>
+
+  <!-- Arrow across bottom -->
+  <path d="M325 292 L295 292" stroke="#F25C05" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <polygon points="295,287 285,292 295,297" fill="#F25C05"/>
+
+  <!-- Step 4: Flexible Repayment with Low Interest -->
+  <g transform="translate(35, 220)" filter="url(#shadowBox)">
+    <rect width="250" height="145" rx="16" fill="#FFFFFF" stroke="#FED7AA" stroke-width="1.5"/>
+    <circle cx="36" cy="38" r="18" fill="#FFF7ED"/>
+    <!-- Calendar & Check -->
+    <rect x="27" y="29" width="18" height="18" rx="3" stroke="#F25C05" stroke-width="2" fill="none"/>
+    <line x1="27" y1="35" x2="45" y2="35" stroke="#F25C05" stroke-width="2"/>
+    <text x="64" y="32" font-family="-apple-system, sans-serif" font-size="10" font-weight="800" fill="#F25C05" letter-spacing="0.5">STEP 4</text>
+    <text x="64" y="48" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#0F172A">Comfortable EMIs</text>
+    <text x="20" y="85" font-family="-apple-system, sans-serif" font-size="11" fill="#475569">
+      <tspan x="20" dy="0">12 to 84 months flexible tenure.</tspan>
+      <tspan x="20" dy="18">Lowest interest from 10.99% p.a.</tspan>
+      <tspan x="20" dy="18">Prepay anytime with 0 penalty.</tspan>
+    </text>
+  </g>
+</svg>

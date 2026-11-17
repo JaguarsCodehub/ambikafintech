@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-orange: #f25c05;
+  --primary-orange-hover: #d94e02;
+  --primary-orange-light: #fff7ed;
+  --primary-orange-dark: #c2410c;
+  --dark-charcoal: #0f172a;
+  --dark-slate: #1e293b;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+/* Custom Slider Styling */
+.custom-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: #e2e8f0;
+  outline: none;
+  transition: background 0.2s;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #f25c05;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(242, 92, 5, 0.5);
+  border: 3px solid #ffffff;
+  transition: transform 0.15s ease;
+}
+
+.custom-range::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
